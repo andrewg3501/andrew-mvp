@@ -86,20 +86,20 @@ alert("welcome " + name + ", we hope you enjoy your stay here")
 
 document.getElementById("teleport").addEventListener("click", getTeleported);
 function getTeleported () {
-  document.getElementById("teleport").innerHTML = "Here is the surprise you earned!"; 
-  
+  document.getElementById("teleport").innerHTML = "Here is the surprise you earned!";
+
 }
 
  $.ajax({
                 url: 'https://github.com/RocktimSaikia/anime-chan',
                 dataType: 'json',
-                success: function(data) { 
+                success: function(data) {
                     console.log(data);
                 }
             });
 
 </script>
-  
+
 
 
 </body>
